@@ -38,3 +38,4 @@ while True:
 with open(f"{query}.csv", mode="w", newline="", encoding="utf-8") as fp:
     writer = csv.writer(fp)
     writer.writerows(file)
+print("\033[92m"+"Done!\nPlz hire me i am good LOLz")
